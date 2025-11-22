@@ -3,8 +3,8 @@ import requests
 class msg_handler:
     
     # Telegram Bot 配置
-    TELEGRAM_BOT_TOKEN = "8362220872:AAGGVnCchVUUoRLWLN1ufnf-oaSJkuzjfvc"  # 从 @BotFather 获取
-    TELEGRAM_CHAT_ID = "1859193713"      # 个人/群组聊天ID
+    TELEGRAM_BOT_TOKEN = "you_telegram_bot_token"  # 从 @BotFather 获取
+    TELEGRAM_CHAT_ID = "you_telegram_chat_id"      # 个人/群组聊天ID
     
     @classmethod
     def send_to_wx(cls, msg):
